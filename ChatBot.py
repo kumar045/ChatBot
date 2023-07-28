@@ -28,7 +28,7 @@ def download_file(url, destination):
 url = "https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q8_0.bin"
 destination = "llama-2-7b-chat.ggmlv3.q8_0.bin"
 
-# download_file(url, destination)
+download_file(url, destination)
 
 llm = CTransformers(
         model="llama-2-7b-chat.ggmlv3.q8_0.bin",
